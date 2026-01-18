@@ -1,3 +1,1 @@
-function sayHello() {
-    alert("Hellooooooooooooooo ");
-}
+console.log("Portfolio Loaded Successfully!");
