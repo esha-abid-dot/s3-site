@@ -1,13 +1,13 @@
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background: #f0fdf4;
-  color: #14532d;
+  background: #1c1f26; /* soft dark */
+  color: #e5e7eb;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background: linear-gradient(135deg, #16a34a, #4ade80);
+  background: linear-gradient(135deg, #2563eb, #1e40af);
   color: white;
   padding: 40px 20px;
   text-align: center;
@@ -17,18 +17,27 @@ section {
   padding: 25px;
   margin: 20px auto;
   max-width: 900px;
-  background: white;
+  background: #2a2e38; /* soft blackish */
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(22, 163, 74, 0.15);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
 h2 {
-  color: #16a34a;
+  color: #60a5fa;
+}
+
+p, li {
+  color: #d1d5db;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background: #14532d;
-  color: white;
+    background: #111827;
+  color: #9ca3af;
 }
