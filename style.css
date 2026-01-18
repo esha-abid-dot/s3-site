@@ -1,13 +1,13 @@
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background: #f8fafc;
-  color: #1e293b;
+  background: #faf5ff;
+  color: #2e1065;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background: #2563eb;
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
   color: white;
   padding: 40px 20px;
   text-align: center;
@@ -18,17 +18,17 @@ section {
   margin: 20px auto;
   max-width: 900px;
   background: white;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(124, 58, 237, 0.15);
 }
 
 h2 {
-  color: #2563eb;
+  color: #7c3aed;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background: #1e293b;
+  background: #2e1065;
   color: white;
 }
